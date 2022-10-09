@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="media/fav.png">
+        <title>Moose Vending</title>
+
+        <!-- Bootstrap Stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    </head>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark align-items-start fixed-top">
+            <div class="navbar-collapse collapse w-100 justify-content-end dual-collapse2 order-1 order-md">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#machines">Machines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto my-2 order-0 order-md-1">
+                <a class="mx-auto navbar-brand" href="#">
+                    <img src="media/logo.png" id="logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2" id="btn" aria-controls="dual-collapse2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="close py-1"><i class="bi bi-x-lg"></i></span>
+                    <span class="menu py-1"><i class="bi bi-list"></i></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of Navbar -->
+
+        <!-- Background Image -->
+        <div
+            id="header"
+            class="flex-column d-flex justify-content-center"
+            style="background-image: url('media/background.png');"
+        >
+            <div class="text-white text-center" id="head-content">
+                <h1 class="mb-4 display-3" style="font-weight: 700;">Vending Machines<br>For Your Business</h1>
+                <h5 class="display-5">At Moose Vending, our mission is to provide every business with a quality machine that fulfills their needs.</h5>
+            </div> 
+        </div>
+        <!-- End Background Image -->
+    </header>
+    <body>
+
+        
+        <!-- Machines -->
+        <div class="container-fluid p-5" id="machines">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text-end">
+                
+                </div>
+                <div class="col-lg-6 col-md-12 text-vertical-center">
+                    <h1 class="display-4" style="font-weight: 700;">Machine Variety</h1>
+                    <h1>We offer claw, candy, snack, soda, and combo machines!</h1>
+                </div>   
+            </div>
+        </div>
+        <!-- Machines -->
+
+        <!-- Quality Service -->
+        <div class="container-fluid p-5 gray" id="service">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text-vertical-center text-end">
+                    <h1 class="display-4" style="font-weight: 700;">Quality Service</h1>
+                    <h1>Clean, quality, machines serviced for free.</h1>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="media/services-image.jpg" width="400" height="800" class="img-fluid rounded-circle" alt="Service">
+                </div>      
+            </div>
+        </div>
+        <!-- End of Quality Service -->
+
+        <!-- Charity Vending -->
+        <div class="container-fluid p-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text-end">
+                    <img src="media/charity.jpg" width="400" height="800" class="img-fluid rounded-circle" alt="Change">
+                </div>
+                <div class="col-lg-6 col-md-12 text-vertical-center">
+                    <h1 class="display-4" style="font-weight: 700;">Charity Vending</h1>
+                    <h1>20% of our candy machine’s revenue is donated to the NCCS!</h1>
+                    <a class="text-black" href="https://thenccs.org/wp-content/uploads/2021/10/impact-childhood-cancer-2021.jpg" target="_blank">
+                        <button class="btn">View Impact</button>
+                    </a>
+                </div>   
+            </div>
+        </div>
+        <!-- End of Charity Vending -->
+
+        <!-- About -->
+        <div class="container-fluid p-5 gray" id="about">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text-vertical-center text-end">
+                    <h1 class="display-4" style="font-weight: 700;">About Us</h1>
+                    <h1>Moose vending is a vending business that serves all of Rock County. Our vision is to service as many businesses as possible. </h1>
+                </div>   
+                <div class="col-lg-6 col-md-12 text-start">
+                    <img src="media/about.jpg" width="400" height="800" class="img-fluid rounded-circle" alt="Change">
+                </div>
+            </div>
+        </div>
+        <!-- End of About -->
+
+        <!-- Contact -->
+        <div class="container-fluid p-5" id="contact">
+            <div class="row text-center">
+                <h1 class="display-2 p-5" style="font-weight: 700;">Contact Us</h1>
+                <h1>
+                    <i class="bi bi-envelope-fill"></i> 
+                    <a class="social" href="mailto:moose.vending.services@gmail.com">Moose.vending.services@gmail.com</a>
+                </h1>
+                <h1>
+                    <i class="bi bi-telephone-fill"></i> 
+                    <a class="social" href="tel:+16085018831">608-501-8831</a>
+                </h1>
+                <h1>
+                    <i class="bi bi-instagram"></i> <a class="social" href="https://www.instagram.com/moose.vending/" target="_blank">Instagram</a>
+                </h1>
+                <h1>
+                    <i class="bi bi-facebook"></i> <a class="social" href="https://www.facebook.com/moosevending/" target="_blank">Facebook</a>
+                </h1>
+            </div>
+        </div>
+        <!-- End of Contact -->
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+        <!-- Nav JS -->
+        <script src="js/nav.js"></script>
+    </body>
+    <footer>
+        <p class="text-center bg-dark text-white">© 2022 All Rights Reserved | Moose Vending</p>
+    </footer>
+</html>

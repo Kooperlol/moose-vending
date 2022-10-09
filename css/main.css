@@ -1,0 +1,98 @@
+/* Gray Background */
+.gray {
+    background-color: #EEEEEE;
+}
+
+/* Logo spacing + size */
+#logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Nav-item spacing */
+.nav-item {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+/* Settings specific for devices <= 992px */
+@media (max-width: 991px) {
+    #header {
+        height: 750px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #head-content {
+        padding-top: 150px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+/* Settings specific for devices larger than 992px */
+@media (min-width: 992px) {
+    #header {
+        height: 900px;
+    }
+
+    #head-content {
+        padding-right: 300px;
+        padding-left: 300px;
+    }
+}
+
+/* Bootstrap Default Settings */
+:root {
+    --primary-color: #EBA137;
+    --primary-color-highlight: #D9D9D9;
+    --bs-body-bg: #FBF0F6;
+    --bs-body-font-family: 'Poppins', sans-serif;
+}
+
+/* Social Link Styles */
+.social {
+    text-decoration: none;
+    color: black;
+}
+
+.social:hover {
+    color: #EBA137;
+}
+
+/* Nav Link Design */
+.nav-link:hover {
+    color: #EBA137;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+/* Button animation */
+.navbar button[aria-expanded="true"] > span.close {
+    display: inline;
+ }
+ 
+ .navbar button[aria-expanded="true"] > span.menu {
+    display: none;
+ }
+ 
+ .navbar button[aria-expanded="false"] > span.close {
+    display: none;
+ }
+
+ /* Button Color */
+ .btn {
+    background-color: #EBA137;
+ }
+
+.btn:hover {
+    background:rgb(235, 161, 55, 0.7);
+}
