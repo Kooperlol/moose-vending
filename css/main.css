@@ -31,6 +31,18 @@
         padding-right: 30px;
         padding-left: 30px;
     }
+
+    .col-lg-6 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .text-end {
+        text-align: center !important;
+    }
 }
 
 /* Settings specific for devices larger than 992px */
@@ -95,4 +107,46 @@
 
 .btn:hover {
     background:rgb(235, 161, 55, 0.7);
+}
+
+/* Make images fit within circle */
+.rounded-circle {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+}
+
+/* Carousel Styling */
+.carousel-item {
+    height: 20em;
+    width: 20em;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-container {
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    position: absolute; 
+    bottom: 0;
+    padding: 35px;
+} 
+
+#machine-carousel {
+    width: 20em;
+    border-radius: 20px;
+    height: 20em;
+    float: right;
+}
+
+/* Footer on bottom */
+footer {
+    height: 0;
+}
+
+/* Contact Us */
+.contact-us {
+    word-wrap: break-word;
 }

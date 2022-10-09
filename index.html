@@ -70,13 +70,52 @@
         <!-- End Background Image -->
     </header>
     <body>
-
-        
         <!-- Machines -->
         <div class="container-fluid p-5" id="machines">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 text-end">
-                
+                <div class="col-lg-6 col-md-12">
+                    <div id="machine-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="background-image: url('media/claw.jpg');">
+                                <div class="carousel-container">
+                                    <h1>Claw Machine</h1>
+                                </div>
+                            </div> 
+                            <div class="carousel-item" style="background-image: url('media/candy.jpg');">
+                                <div class="carousel-container">
+                                    <h1>Candy Machine</h1>
+                                </div>
+                            </div> 
+                            <div class="carousel-item" style="background-image: url('media/combo.jpg');">
+                                <div class="carousel-container">
+                                    <h1>Combo Machine</h1>
+                                </div>
+                            </div> 
+                            <div class="carousel-item" style="background-image: url('media/snack.jpg');">
+                                <div class="carousel-container">
+                                    <h1>Snack Machine</h1>
+                                </div>
+                            </div> 
+                            <div class="carousel-item" style="background-image: url('media/drink.jpg');">
+                                <div class="carousel-container">
+                                    <h1>Soda Machine</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#machine-carousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a href="#machine-carousel" class="carousel-control-next" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-12 text-vertical-center">
                     <h1 style="font-weight: 700;">Machine Variety</h1>
@@ -125,7 +164,7 @@
                     <h3>Moose vending is a vending business that serves all of Rock County. Our vision is to service as many businesses as possible. </h3>
                 </div>   
                 <div class="col-lg-6 col-md-12 text-start">
-                    <img src="media/about.jpg" width="300" height="500" class="img-fluid rounded-circle" alt="Change">
+                    <img src="media/about.jpg" class="rounded-circle" alt="Change">
                 </div>
             </div>
         </div>
@@ -133,8 +172,8 @@
 
         <!-- Contact -->
         <div class="container-fluid p-5" id="contact">
-            <div class="row text-center">
-                <h1 p-5" style="font-weight: 700;">Contact Us</h1>
+            <div class="row text-center contact-us">
+                <h1 style="font-weight: 700;">Contact Us</h1>
                 <h2>
                     <i class="bi bi-envelope-fill"></i> 
                     <a class="social" href="mailto:moose.vending.services@gmail.com">Moose.vending.services@gmail.com</a>
@@ -161,6 +200,6 @@
         <script src="js/nav.js"></script>
     </body>
     <footer>
-        <p class="text-center bg-dark text-white">© 2022 All Rights Reserved | Moose Vending</p>
+        <p class="text-center bg-dark text-white p-2">© 2022 All Rights Reserved | Moose Vending</p>
     </footer>
 </html>
